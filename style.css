@@ -1,4 +1,7 @@
 body {
+    max-width: fit-content;
+    margin: auto;
+    border: 6px;
     background-color: red;
     font-weight: bold;
     text-decoration: underline;
@@ -17,4 +20,16 @@ table{
     margin-top: auto;
     padding-top: 0%;
     
+}
+input {
+    justify-content: space-between;
+     border-style: dotted;
+}
+button {
+    color: black;
+    text-underline-position: auto;
+    
+}
+tr {
+    background-color: green;
 }
