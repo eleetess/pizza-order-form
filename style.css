@@ -1,11 +1,20 @@
 body {
     background-color: red;
     font-weight: bold;
+    text-decoration: underline;
+    color: bisque;
 }
 h1,h2{
     font-size: larger;
     color: white;
     font-style: oblique;
     font-weight: bolder;
+    
+}
+table{
+    background-color: black;
+    justify-content: space-between;
+    margin-top: auto;
+    padding-top: 0%;
     
 }
