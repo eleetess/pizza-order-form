@@ -29,7 +29,19 @@ button {
     color: black;
     text-underline-position: auto;
     
+    
 }
 tr {
     background-color: green;
+}
+img {
+    padding: 5%;
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+    
+}
+td {
+    background-color: black;
 }
