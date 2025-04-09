@@ -1,47 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
 body {
-    max-width: fit-content;
-    margin: auto;
-    border: 6px;
-    background-color: red;
-    font-weight: bold;
-    text-decoration: underline;
-    color: bisque;
+  max-width: fit-content;
+  margin: auto;
+  border: 6px;
+  background-color: red;
+  font-weight: bold;
+  text-decoration: underline;
+  color: bisque;
 }
-h1,h2{
-    font-size: larger;
-    color: white;
-    font-style: oblique;
-    font-weight: bolder;
-    
+h1 {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 100px;
+  background-color: green;
+  text-align: center;
 }
-table{
-    background-color: black;
-    justify-content: space-between;
-    margin-top: auto;
-    padding-top: 0%;
-    
+
+h2 {
+  font-size: larger;
+  color: white;
+  font-style: oblique;
+  font-weight: bolder;
+}
+table {
+  background-color: black;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 0%;
 }
 input {
-    justify-content: space-between;
-     border-style: dotted;
+  justify-content: space-between;
+  border-style: dotted;
 }
 button {
-    color: black;
-    text-underline-position: auto;
-    
-    
+  color: black;
+  text-underline-position: auto;
 }
 tr {
-    background-color: green;
+  background-color: green;
 }
 img {
-    padding: 5%;
-    max-width: 100%;
-    width: 300px;
-    height: 300px;
-    border-radius: 6px;
-    
+  padding: 10%;
+  max-width: 100%;
+  width: 300px;
+  height: 300px;
+  
+  border-radius: 6px;
+  border-color: bisque;
+  
 }
 td {
-    background-color: black;
+  background-color: gray;
 }
