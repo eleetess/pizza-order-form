@@ -14,32 +14,33 @@
      <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/restaurant/cover_square/d8c75fa6-1c5a-4efa-b077-b9353a2f6b23.jpeg">
     <h2>Pizza-Order Form</h2>
         <h3>Customer Information</h3>
-        <form action="/action_page.php">
+        <form id="myForm">
             <label for="fname">First name:</label><br>
             <input type="text" id="fname" name="fname" value=""><br>
             <label for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname" value=""><br>
             <label for="address">Address:</label><br>
             <input type="text" id="address" address=" value="><br>
-            </form> 
+             
             <h3>Order Information</h3>
             <h4>Pizza Size</h4>
-            <select>
-                <option value="volvo">Small</option>
-                <option value="saab">Medium</option>
-                <option value="mercedes">Large</option>
+            <select id="sizes">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
                 </select>
                 <h4>Ingredients</h4>
-                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <input type="checkbox"id="pepper" value="pepperoni" >
 <label for="Pepperoni"> Pepperoni</label><br>
-<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-<label for="vehicle2"> mushroom</label><br>
-<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-<label for="vehicle3"> Extra cheese</label><br>
+<input type="checkbox" id="shrooms" value="mushroom" >
+<label for="mushroom"> mushroom</label><br>
+<input type="checkbox" id="excheese" value="excheese">
+<label for="Extra cheese"> Extra cheese</label><br>
 <h4>Delivery Instructions</h4>
-<input for="special instructions"></input>
+<input for="special instructions" id="instructions"type="text"></input>
 <button><strong>Submit</strong></button>
-<table>
+</form>
+<table id="tablefable">
     <tr>
       <th>Customer name</th>
       <th>Size</th>
@@ -82,13 +83,19 @@
       <td>cheese</td>
       <td>no special instructions</td>
     </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
   </table><br>
 <img src= "https://m.media-amazon.com/images/I/91bLy3CTwYL._AC_SX679_.jpg"> 
 <img src="https://sallysbakingaddiction.com/wp-content/uploads/2020/04/easy-homemade-flatbread-2.jpg">
 <img src="https://www.alyonascooking.com/wp-content/uploads/2021/10/pizza-hut-stuffed-crust-pizza-copycat-45.jpg">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDv9wFQMxoSrsmvqb49dRlalc3yGioFJNR2w&s">
     </main>
-    
+    <script src="script.js" defer></script>
 </body>
 <footer>EricaIdea</footer>
 </html>
