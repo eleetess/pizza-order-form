@@ -32,10 +32,8 @@ function makeThisWork (event){
         
     
 
-
-    ingredients.forEach((topping)=>{
-        toppings.innerHTML+=topping
-    })
+let string=ingredients.join(", ")
+    toppings.innerText= string
     delivery.innerHTML=instructions.value
     size.innerHTML=sizes.value
     fullname.innerHTML=fname.value + " "+ lname.value
